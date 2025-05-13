@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TEMOGO\\OneDrive\\Documents\\Event-Ease\\EventEase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49E13F8E-39FC-479C-A967-91EA13BD55B5}|EventEase.csproj|c:\\users\\temogo\\onedrive\\documents\\event-ease\\eventease\\controllers\\bookingviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E13F8E-39FC-479C-A967-91EA13BD55B5}|EventEase.csproj|solutionrelative:controllers\\bookingviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E13F8E-39FC-479C-A967-91EA13BD55B5}|EventEase.csproj|c:\\users\\temogo\\onedrive\\documents\\event-ease\\eventease\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E13F8E-39FC-479C-A967-91EA13BD55B5}|EventEase.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E13F8E-39FC-479C-A967-91EA13BD55B5}|EventEase.csproj|c:\\users\\temogo\\onedrive\\documents\\event-ease\\eventease\\controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E13F8E-39FC-479C-A967-91EA13BD55B5}|EventEase.csproj|solutionrelative:controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E13F8E-39FC-479C-A967-91EA13BD55B5}|EventEase.csproj|c:\\users\\temogo\\onedrive\\documents\\event-ease\\eventease\\models\\bookingview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E13F8E-39FC-479C-A967-91EA13BD55B5}|EventEase.csproj|solutionrelative:models\\bookingview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 183,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookingView.cs",
+              "DocumentMoniker": "C:\\Users\\TEMOGO\\OneDrive\\Documents\\Event-Ease\\EventEase\\Models\\BookingView.cs",
+              "RelativeDocumentMoniker": "Models\\BookingView.cs",
+              "ToolTip": "C:\\Users\\TEMOGO\\OneDrive\\Documents\\Event-Ease\\EventEase\\Models\\BookingView.cs",
+              "RelativeToolTip": "Models\\BookingView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:31:35.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VenueController.cs",
+              "DocumentMoniker": "C:\\Users\\TEMOGO\\OneDrive\\Documents\\Event-Ease\\EventEase\\Controllers\\VenueController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VenueController.cs",
+              "ToolTip": "C:\\Users\\TEMOGO\\OneDrive\\Documents\\Event-Ease\\EventEase\\Controllers\\VenueController.cs",
+              "RelativeToolTip": "Controllers\\VenueController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAiwJkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T00:19:43.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingViewController.cs",
+              "DocumentMoniker": "C:\\Users\\TEMOGO\\OneDrive\\Documents\\Event-Ease\\EventEase\\Controllers\\BookingViewController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingViewController.cs",
+              "ToolTip": "C:\\Users\\TEMOGO\\OneDrive\\Documents\\Event-Ease\\EventEase\\Controllers\\BookingViewController.cs",
+              "RelativeToolTip": "Controllers\\BookingViewController.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAewOQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T11:32:25.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\TEMOGO\\OneDrive\\Documents\\Event-Ease\\EventEase\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\TEMOGO\\OneDrive\\Documents\\Event-Ease\\EventEase\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Controllers\\EventController.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAwJYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T00:02:00.634Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

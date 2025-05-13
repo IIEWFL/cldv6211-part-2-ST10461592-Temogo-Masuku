@@ -1,0 +1,50 @@
+﻿@model EventEase.Models.BookingView
+
+<h1>Edit</h1>
+
+<form method="post">
+	<div class="container">
+
+		<div class="form-group">
+			<input asp-for="BookingViewid" class="form-control" hidden />
+		</div>
+
+		<div class="form-group">
+			<label asp-for="EventName" class="control-label">Event Name</label>
+			<input asp-for="EventName" class="form-control" />
+		</div>
+		<div class="form-group">
+			<label asp-for="EventDate" class="control-label">Event Date</label>
+			<input asp-for="EventDate" class="form-control" />
+		</div>
+		<div class="form-group">
+			<label asp-for="ImageURL" class="control-label">ImageURL</label>
+			<input asp-for="ImageURL" class="form-control" />
+		</div>
+		<div class="form-group">
+			<label asp-for="Location" class="control-label">Location</label>
+			<input asp-for="Location" class="form-control" />
+		</div>
+		<div class="form-group">
+			<label asp-for="Capacity" class="control-label">Capacity</label>
+			<input asp-for="Capacity" class="form-control" />
+		</div>
+		<div class="form-group">
+			<label asp-for="VenueName" class="control-label">VenueName</label>
+			<input asp-for="VenueName" class="form-control" />
+		</div>
+		<div class="form-group">
+			<label asp-for="BookingDate" class="control-label">BookingDate</label>
+			<input asp-for="BookingDate" class="form-control" />
+		</div>
+		<div class="form-group">
+			<label asp-for="Description" class="control-label">Description</label>
+			<input asp-for="Description" class="form-control" />
+		<div class="form-group">
+			<button type="submit" class=" btn btn-primary mt-3">Update BookingView</button>
+			<a class="btn btn-warning" asp-action="Index">Back To List</a>
+		</div>
+	</div>
+</form>
+
+

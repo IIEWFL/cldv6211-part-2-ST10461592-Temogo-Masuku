@@ -1,0 +1,25 @@
+﻿@model EventEase.Models.BookingView
+
+<h1>Delete</h1>
+
+<div class="container text-center">
+    <div class="card" style="width: 18rem;">
+        <img src="@Model.ImageURL" class="card-img-top" alt="@Model.EventName">
+        <div class="card-body">
+            <h5 class="card-title"> @Html.DisplayFor(model => model.EventName)  
+            <p class="card-text">BookingView Details:</p>
+            <p>EventName: @Html.DisplayFor(model => model.EventName)</p>
+            <p>EventDate: @Html.DisplayFor(Model => Model.EventDate)</p>
+            <p>Location: @Html.DisplayFor(Model => Model.Location)</p>
+            <p>Capacity: @Html.DisplayFor(Model => Model.Capacity)</p>
+            <p>VenueName: @Html.DisplayFor(Model => Model.VenueName)</p>
+            <p>BookingDate: @Html.DisplayFor(Model => Model.BookingDate)</p>
+            <p>Description: @Html.DisplayFor(Model => Model.Description)</p>
+            <form asp-action="Delete">
+                <input type="hidden" asp-action="BookingViewid" />
+                <input type="submit" value="Delete" class="btn btn-danger" />
+                <a class="btn btn-warning" asp-action="Index">Back To List</a>
+            </form>
+        </div>
+    </div>
+</div>

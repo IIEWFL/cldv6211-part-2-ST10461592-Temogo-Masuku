@@ -1,0 +1,63 @@
+﻿@model IEnumerable<EventEase.Models.BookingViewViewModel>
+
+
+<h1>BookingView List</h1>
+
+<a class="btn btn-primary mb-2" asp-action="Create">Create</a>
+
+<form class="mb-4" method="get" asp-action="Idex">
+    <div class="mb-2 mt-2">
+        <input type="text" name="searchQuery" class="form-control" placeholder="Search by Id or Event Name or Venue Name" value="@Context.Request.Query["searchQuery"]"/>
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+
+    @if (!string.IsNullOrEmpty(Context.Request.Query["searchQuery"]))
+    {
+        <a href="@Url.Action("Index","BookingView")" class="btn btn-outline-secondary">Clear</a>
+    }
+</form>
+
+<div class="mb-4 mb-4 alert alert-success alert-dismissible fade show" role="alert">
+    @TempData["SuccessMessage"]
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+ <div class="container text-center">
+    <div class="row">
+        @foreach (var BookingView in Model)
+        {
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="@BookingView.ImageURL" class="card-img-top" alt="@BookingView.EventName">
+                    <div class="card-body">
+                       @*  <h5 class="card-title">@BookingView.VenueName @BookingView.Location</h5> *@
+                        <p class="card-text">BookingView Details:</p>
+                        <p>EventName: @BookingView.EventName</p>
+                        <p>EventDate: @BookingView.EventDate</p>
+                        <p>Location: @BookingView.Location</p>
+                        <p>Capacity: @BookingView.Capacity</p>
+                        <p>VenueName: @BookingView.VenueName</p>
+                        <p>BookingDate: @BookingView.BookingDate</p>
+                        <p>Description: @BookingView.Description</p>
+                        <a class="btn btn-info" asp-action="Details" asp-route-id="@BookingView.BookingViewid">Details</a>
+                        <a class="btn btn-success" asp-action="Edit" asp-route-id="@BookingView.BookingViewid">Edit</a>
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@BookingView.BookingViewid">Delete</a>
+                    </div>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
